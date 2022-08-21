@@ -1,6 +1,6 @@
 *.log
-target/
-idea/
+/target
+/idea
 *.iml/
 *.crc
-out/
+/out
