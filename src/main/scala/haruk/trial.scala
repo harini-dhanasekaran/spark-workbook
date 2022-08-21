@@ -21,7 +21,6 @@ object  trial {
     // Count up the occurrences of each word
     val wordCounts = words.countByValue()
 
-    words.saveAsTextFile("result.txt")
 
     // Print the results.
     wordCounts.foreach(println)
